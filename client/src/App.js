@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {TikTakToeGame} from './components/tiktaktoe/TikTakToeGame'
+import TikTakToe from './components/TikTakToe/TikTakToe'
 
 
 function App() {
   return (
     <div>
-      <TikTakToeGame />
+      <TikTakToe />
     </div>
   );
 }

@@ -33,7 +33,7 @@ const isBoardFull = squares => {
   return true;
 };
 
-export const TikTakToeGame = () => {
+const TikTakToe = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [isXNext, setIsXNext] = useState(true);
   const nextSymbol = isXNext ? "X" : "O";
@@ -104,3 +104,5 @@ export const TikTakToeGame = () => {
     </div>
   );
 };
+
+export default TikTakToe;
