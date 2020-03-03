@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./game.css";
+import "./TikTakToe.css";
 import { Restart } from "./Restart";
 import { Square } from "./Square";
 
